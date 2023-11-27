@@ -6,7 +6,7 @@ Blockchain --> Ethereum and Solidity
 Frontend --> Reactjs and Ethers.js
 
 How to run:
-compile and Run supplychain.sol in Remix IDE and the deploy in metamask environment once it is deployed get the contract address from the deployed instance. Inorder to save Drug Status or set products, workers or other data you can use UI provided in the IDE to execute any transactions Replace the contact address in client code by following the below steps.
+Compile and run supplychain.sol in Remix IDE, then deploy it in the metamask environment. Once deployed, get the contract address from the deployed instance. To save Drug Status or set goods, workers, or other data, you may utilize the IDE's UI to conduct any transactions. Follow the instructions below to replace the contact address in client code.
 
 Client/Frontend:
 Go to client folder and run npm install
