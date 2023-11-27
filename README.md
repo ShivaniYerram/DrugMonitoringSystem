@@ -35,9 +35,9 @@ Replace the contact address in client code by following the below steps.
 ### Client/Frontend
 
 - Go to client folder and run  `npm install`
--  Then go to componenst folder and change contract address in four files
-- its like `const ContractAddress = '<your_contract_address>' `
-- now  you can run the command `npm start`
-- now your app is runnng on port 3000
+- Then go to components folder and change contract address in four files
+- It looks like this `const ContractAddress = '<your_contract_address>' `
+- Now  you can run the command `npm start`
+- Your app is runnng on port 3000
 
 
