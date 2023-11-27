@@ -1,23 +1,6 @@
 # DrugMonitoringSystem
 Smart Contract based Drug-Health Monitoring System for finding counterfiet drugs
 
-Tech Stack
-Blockchain --> Ethereum and Solidity
-Frontend --> Reactjs and Ethers.js
-
-How to run:
-Compile and run supplychain.sol in Remix IDE, then deploy it in the metamask environment. Once deployed, get the contract address from the deployed instance. To save Drug Status or set drugs data, workers, or other data, you may utilize the IDE's UI to conduct any transactions. Follow the instructions below to replace the contact address in client code.
-
-Client/Frontend:
-Go to client folder and run npm install
-Then go to componenst folder and change contract address in four files
-its like const ContractAddress = '<your_contract_address>' 
-now you can run the command npm start
-now your app is runnng on port 3000
-
-Smart Contract based Drug-Health Monitoring System for finding counterfiet drugs
-
-
 <h3> Tech Stack </h3>
 <ul>
   <li>Blockchain --> Ethereum and  Solidity  </li>
