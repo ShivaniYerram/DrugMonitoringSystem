@@ -69,7 +69,7 @@ mapping (uint256 => Product) public drugs;
 mapping (uint256 => Worker) public employees;
 mapping (uint256 => Data[]) public data;
 
-
+// add employes at corresponding warehouse
 function setEmployee(string memory name) public  payable
 {
     employeeInfo=Worker(name,employee_id,block.timestamp);
@@ -78,7 +78,7 @@ function setEmployee(string memory name) public  payable
     employee_id++;
 
 }
-
+// adds details about a drug
 function AddDrug(
     string memory name,
     string memory price,
@@ -92,7 +92,7 @@ function AddDrug(
     drug_id++;
 
 }
-
+// Adds status of a drug at particular location
 function AddDrugStatus( string memory location,
     
     string  memory environmentTemp,
@@ -109,7 +109,7 @@ function AddDrugStatus( string memory location,
     drugStatus.push(statusData);
 }
 
-
+//Adds drug maintaining environment conditions
 function AddDrugData( uint256 environmentTemp,
     uint256 pressure,
     uint256 hindex,uint256 pid) public payable {
